@@ -9,8 +9,8 @@ public class ResultsFromInputsTest {
 	@Test
 	public void testAgeGettersAndSettersMethods() {
 		ResultFromInputs resultsFromInputs = new ResultFromInputs();
-		resultsFromInputs.setResultForNameLenght(10);
-		assertEquals("The result should be 10", resultsFromInputs.getResultForNameLenght(), 10);
+		resultsFromInputs.setResultForNameLength(10);
+		assertEquals("The result should be 10", resultsFromInputs.getResultForNameLength(), 10);
 	}
 
 }

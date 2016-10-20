@@ -62,7 +62,7 @@ public class Game {
 		int valueAge = calculateOutPutBasedOnAge(age);
 		int valueHomecity = calculateOutPutBasedOnHomeCity(homeCity);
 
-		resultFromInputs.setResultForNameLenght(valueName);
+		resultFromInputs.setResultForNameLength(valueName);
 		resultFromInputs.setResultForGender(valueGender);
 		resultFromInputs.setResultForAge(valueAge);
 		resultFromInputs.setResultForHomeCity(valueHomecity);
@@ -135,7 +135,7 @@ public class Game {
 
 		int gender = resultFromInputs.getResultForGender();
 		int age = resultFromInputs.getResultForAge();
-		int name = resultFromInputs.getResultForNameLenght();
+		int name = resultFromInputs.getResultForNameLength();
 		int homecity = resultFromInputs.getResultForHomeCity();
 
 		System.out.println(firstName + " " + lastName + ", your are a great " + conversor.getGenderConverterArray().get(gender));

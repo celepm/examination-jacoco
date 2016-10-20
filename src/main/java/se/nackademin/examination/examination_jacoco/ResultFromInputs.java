@@ -2,17 +2,17 @@ package se.nackademin.examination.examination_jacoco;
 
 public class ResultFromInputs {
 	
-	private int resultForNameLenght = 0;
+	private int resultForNameLength = 0;
 	private int resultForGender = 0;
 	private int resultForAge = 0;
 	private int resultForHomeCity = 0;
 	
 	
-	public int getResultForNameLenght() {
-		return resultForNameLenght;
+	public int getResultForNameLength() {
+		return resultForNameLength;
 	}
-	public void setResultForNameLenght(int resultForNameLenght) {
-		this.resultForNameLenght = resultForNameLenght;
+	public void setResultForNameLength(int resultForNameLength) {
+		this.resultForNameLength = resultForNameLength;
 	}
 	public int getResultForGender() {
 		return resultForGender;
