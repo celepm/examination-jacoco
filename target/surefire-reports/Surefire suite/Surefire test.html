@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 21 10:25:06 CEST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (261 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testAgeConverterArrayValues()'><b>testAgeConverterArrayValues</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testAgeConverterArrayValues(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testAgeFromInputValues()'><b>testAgeFromInputValues</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testAgeFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testBuildFinalString()'><b>testBuildFinalString</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testBuildFinalString(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testCalculateOutPutBasedOnAge()'><b>testCalculateOutPutBasedOnAge</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testCalculateOutPutBasedOnAge(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testCalculateOutPutBasedOnHomeCity()'><b>testCalculateOutPutBasedOnHomeCity</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testCalculateOutPutBasedOnHomeCity(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testCalculateOutputBasedOnGender()'><b>testCalculateOutputBasedOnGender</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testCalculateOutputBasedOnGender(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testCalculateOutputBasedOnNames()'><b>testCalculateOutputBasedOnNames</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testCalculateOutputBasedOnNames(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testCityConverterArrayValues()'><b>testCityConverterArrayValues</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testCityConverterArrayValues(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testGenderConverterArrayValues()'><b>testGenderConverterArrayValues</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testGenderConverterArrayValues(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testGenderFromInputValues()'><b>testGenderFromInputValues</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testGenderFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.MainTest.testMainMethod()'><b>testMainMethod</b><br>Test class: se.nackademin.examination.examination_jacoco.MainTest</td>
+<td></td>
+<td>0</td>
+<td>testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testNameConverterArrayValues()'><b>testNameConverterArrayValues</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testNameConverterArrayValues(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testResultForAge()'><b>testResultForAge</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testResultForAge(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testResultForGender()'><b>testResultForGender</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testResultForGender(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testResultForHomeCity()'><b>testResultForHomeCity</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testResultForHomeCity(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testResultForNameLength()'><b>testResultForNameLength</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testResultForNameLength(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.testResultStringBigHomeCityAndAgeOver30()'><b>testResultStringBigHomeCityAndAgeOver30</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>testResultStringBigHomeCityAndAgeOver30(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.testResultStringBigHomeCityAndAgeUnder30()'><b>testResultStringBigHomeCityAndAgeUnder30</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>testResultStringBigHomeCityAndAgeUnder30(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.testResultStringNamesAndAgeOver30()'><b>testResultStringNamesAndAgeOver30</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>testResultStringNamesAndAgeOver30(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.testResultStringNamesAndAgeUnder30()'><b>testResultStringNamesAndAgeUnder30</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>testResultStringNamesAndAgeUnder30(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.testResultStringSmallHomeCityAndAgeOver30()'><b>testResultStringSmallHomeCityAndAgeOver30</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>testResultStringSmallHomeCityAndAgeOver30(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.testResultStringSmallHomeCityAndAgeUnder30()'><b>testResultStringSmallHomeCityAndAgeUnder30</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>testResultStringSmallHomeCityAndAgeUnder30(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testRun()'><b>testRun</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testRun(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testRunGame()'><b>testRunGame</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testRunGame(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+</table><p>
+</body>
+</html>
